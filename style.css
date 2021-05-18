@@ -1,0 +1,107 @@
+.logo-img{
+	border-radius: 50%;
+	margin-top: -5px;
+	box-shadow: 0 0 3px black;
+}
+
+.bg-aqua, .btn-aqua{
+	background-color: #27ddde;
+}
+
+.text-aqua {
+	color: aqua !important;
+}
+
+/*Landing page*/
+.landing-section{
+	background: url("corporate.jpg") no-repeat scroll center;
+	background-size: cover;
+	height: 100vh;
+	color: white;
+}
+
+.landing-wrapper{
+	background-color: rgba(0,0,0,0.5);
+	height: 100%;
+}
+
+
+.landing-wrapper h1{
+	font-size: 62px;
+}
+
+.landing-wrapper p{
+	font-size: 20px;
+}
+
+
+.fa-play-circle{
+	color: #27ddde;
+	border: 3px solid transparent;
+	border-radius: 50%;
+	animation: glow-icon 0.9s infinite linear;
+} 
+
+@keyframes glow-icon{
+	0%, 100% {
+		transform :scale(1,1);
+	}
+	
+	50% {
+		transform: scale(1,1);
+		box-shadow: 0 0 10px white;
+		border: 3px dotted black;
+	}
+}
+
+.bg-dark, .btn-dark{
+	background: linear-gradient(45deg,black,darkslategrey) !important;
+}
+
+.gallery-img {
+	border-radius: 15%;
+	border: 5px solid #27ddde;
+	box-shadow: 0 0 10px black;
+	transition: all 0.5s;
+	cursor: pointer;
+    height:200px;
+	width: 250px;
+}
+
+.gallery-img:hover {
+	transform: scale(1.05,1.05);
+	
+}
+
+.btn-outline-white {
+	border: 2px solid #27ddde !important;
+    border-radius: 50px;
+}
+
+.btn-outline-white:hover{
+	border: 2px solid #27ddde !important;
+	color: 2px solid #27ddde !important;
+    box-shadow: 0 0 10px #27ddde !important;
+}
+
+
+.trainer-img{
+	box-shadow: 0 0 10px #27ddde;
+	margin-top: -60px;
+}
+
+.trainer-card{
+	border-radius: 10px !important;
+	transition: all 0.5s;
+	background-color: #27ddde !important;
+}
+
+.trainer-card:hover {
+	transform: translateY(-20px);
+	background: linear-gradient(45deg,black,darkslategrey) !important;
+	box-shadow: 0 0 10px #27ddde;
+    color: #27ddde !important;
+}
+
+
+	
